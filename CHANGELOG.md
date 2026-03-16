@@ -10,3 +10,6 @@ All notable changes to this project are documented in this file.
 
 ### v1.0.3 (2025-08-15)
 - Clarified configuration notes and troubleshooting steps.
+
+### v1.0.4 (2026-03-16)
+- Reduced overhead during expired cache key sweeps.
