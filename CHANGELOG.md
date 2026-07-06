@@ -13,3 +13,6 @@ All notable changes to this project are documented in this file.
 
 ### v1.0.4 (2026-03-16)
 - Reduced overhead during expired cache key sweeps.
+
+### v1.0.5 (2026-07-06)
+- Cleaned up environment parsing fallbacks and defaults.
