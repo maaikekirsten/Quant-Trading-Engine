@@ -16,3 +16,6 @@ All notable changes to this project are documented in this file.
 
 ### v1.0.5 (2026-07-06)
 - Cleaned up environment parsing fallbacks and defaults.
+
+### v1.0.6 (2026-08-03)
+- Handled trailing whitespace during payload normalization.
