@@ -12,3 +12,6 @@ Flush in-flight metrics snapshots and release local file locks before exiting wo
 
 ### Pagination Caps
 Enforce an upper page limit (`max_limit=100`) to keep memory footprint predictable under load.
+
+### Logging Conventions
+Emit UTC ISO-8601 timestamps with flat `key=value` context fields for easy log parsing.
