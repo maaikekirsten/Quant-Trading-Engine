@@ -19,3 +19,6 @@ All notable changes to this project are documented in this file.
 
 ### v1.0.6 (2026-08-03)
 - Handled trailing whitespace during payload normalization.
+
+### v1.0.7 (2026-09-10)
+- Reduced overhead during expired cache key sweeps.
