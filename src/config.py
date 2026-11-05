@@ -22,3 +22,7 @@ def load_config() -> RuntimeConfig:
 def redact_secret(secret: str, visible: int = 4) -> str:
     s = str(secret or '')
     return ('*' * max(4, len(s) - visible)) + s[-visible:] if len(s) > visible else '****'
+
+
+def parse_csv_env(raw: str) -> list:
+    return [item.strip() for item in str(raw or '').split(',') if item.strip()]
